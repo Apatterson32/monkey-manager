@@ -1,6 +1,3 @@
-DROP DATABASE IF EXISTS techcorp_db;
-CREATE DATABASE techcorp_db;
-
 CREATE TABLE department (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(30)
